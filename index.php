@@ -50,7 +50,7 @@ while($arrItems[22] == "xxx"){
 
 
 
-$ix = 1;
+$ix = 0;
 
 while($ix < 22){
     echo "{$ix} day, u get ".$arrItems[$ix]."<br/>";
