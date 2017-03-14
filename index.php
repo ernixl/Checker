@@ -53,7 +53,7 @@ print_r($arrItems);
 $ix = 0;
 
 while($ix < 22){
-    echo "{$ix} day, u get ".$arrItems[$ix]."<br/>";
+    echo $ix+1 ." day, u get ".$arrItems[$ix]."<br/>";
     $ix++;
 }
 echo " No more Available anything anything!";
