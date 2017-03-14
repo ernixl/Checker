@@ -16,6 +16,7 @@ while($i < 22){
     }else{
         echo "{$i} day , u get Mugs";
     }
+    echo "<br/>";
 $i++;
 
 }
