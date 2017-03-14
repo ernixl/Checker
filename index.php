@@ -35,7 +35,7 @@ while($i < 22){
     }else{
         echo "{$i} day , u get Mugs";
     }
-
+$i++;
 
 }
  echo " No more Available anything anything!";
