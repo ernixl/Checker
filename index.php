@@ -7,6 +7,8 @@
  * Date: 14/03/2017
  * Time: 14:29
  */
+$oddDays = rand(0,2);
+echo "viola ".$oddDays;
 $i = 1;
 while($i < 100){
 
@@ -16,7 +18,6 @@ $i++;
 ?>
 
 
-    $oddDays = rand(0,2);
-    echo "viola ".$oddDays;
+
 </select>
 
