@@ -3,23 +3,56 @@
 <?php
 
 
-$i = 1;
 
-while($i < 22){
+
+
+
+
+
+
+
+$arrItems = array();
+$sa = 0;
+$mu = 0;
+$sp = 0;
+$i = 0;
+while($arrItems[22] == "xxx"){
     $value = (rand(0,2));
     if($value == 0){
-        echo "{$i} day , u get Specs";
-
-    }else if($value == 1){
-        echo "{$i} day , u get Sausage Rolls";
-
-    }else{
-        echo "{$i} day , u get Mugs";
+        if($sp < 8) {
+            $arrItems[$i] = "Spec";
+            $i++;
+            $sp ++;
+        }
     }
-    echo "<br/>";
-$i++;
-
+   else if($value == 0){
+        if($sa < 8) {
+            $arrItems[$i] = "Sausage";
+            $i++;
+            $sa ++;
+        }
+    }
+   else{
+       if($sa < 8) {
+           $arrItems[$i] = "Sausage";
+           $i++;
+           $sa ++;
+       }
+   }
 }
- echo " No more Available anything anything!";
 
+
+
+
+
+
+
+
+$ix = 1;
+
+while($ix < 22){
+    echo "{$ix} day, u get ".$arrItems[$ix]."<br/>";
+    $ix++;
+}
+echo " No more Available anything anything!";
 ?>
