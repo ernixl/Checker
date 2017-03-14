@@ -26,5 +26,5 @@ $i++;
 $oddDays = rand(0,2);
 echo "viola ".$oddDays;
 $i = 1;
-
+   
 ?>
