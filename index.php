@@ -22,7 +22,7 @@ $i++;
 <?php
 
 
-
+$i = 1;
 
 while($i < 22){
     $value = (rand(0,2));
