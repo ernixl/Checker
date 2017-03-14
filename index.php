@@ -47,7 +47,7 @@ while($arrItems[22] == "xxx"){
 
 
 
-
+print_r($arrItems);
 
 
 $ix = 0;
