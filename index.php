@@ -17,6 +17,6 @@ $i++;
 
 
     $oddDays = rand(0,2);
-    echo $oddDays;
+    echo "viola ".$oddDays;
 </select>
 
