@@ -12,9 +12,9 @@
 
 
 $arrItems = array();
-$sa = 0;
-$mu = 0;
-$sp = 0;
+$sa = 1;
+$mu = 1;
+$sp = 1;
 $i = 0;
 $arrItems[21] = "xxx";
 while($arrItems[21] == "xxx"){
