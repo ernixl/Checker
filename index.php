@@ -23,8 +23,8 @@ $i++;
 
 
 
-$oddDays = rand(0,2);
-echo "viola ".$oddDays;
+echo(rand(0,2));
+
 
 
 ?>
