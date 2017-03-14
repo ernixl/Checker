@@ -30,14 +30,14 @@ while($arrItems[22] != "xxx"){
         if($sa < 8) {
             $arrItems[$i] = "Sausage";
             $i++;
-            $sa ++;
+            $sa++;
         }
     }
    else{
-       if($sa < 8) {
-           $arrItems[$i] = "Sausage";
+       if($mu < 8) {
+           $arrItems[$i] = "Mug";
            $i++;
-           $sa ++;
+           $mu++;
        }
    }
 }
