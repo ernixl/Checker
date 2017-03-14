@@ -14,5 +14,9 @@ while($i < 100){
 $i++;
 }
 ?>
+
+
+    $oddDays = rand(0,2);
+    echo $oddDays;
 </select>
 
