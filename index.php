@@ -27,7 +27,7 @@ while($arrItems[22] == "xxx"){
             $sp ++;
         }
     }
-   else if($value == 0){
+   else if($value == 1){
         if($sa < 8) {
             $arrItems[$i] = "Sausage";
             $i++;
