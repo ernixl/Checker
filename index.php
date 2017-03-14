@@ -23,8 +23,16 @@ $i++;
 
 
 
-echo(rand(0,2));
+$value = (rand(0,2));
+if($value == 0){
+    echo "Specs";
 
+}else if($value == 1){
+    echo "Sausage Rolls";
+
+}else{
+    echo "Mugs";
+}
 
 
 ?>
