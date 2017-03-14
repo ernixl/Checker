@@ -16,8 +16,8 @@ $sa = 0;
 $mu = 0;
 $sp = 0;
 $i = 0;
-$arrItems[22] = "xxx";
-while($arrItems[22] == "xxx"){
+$arrItems[21] = "xxx";
+while($arrItems[21] == "xxx"){
     $value = (rand(0,2));
     echo $value . " *****************<br/>";
     if($value == 0){
