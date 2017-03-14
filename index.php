@@ -16,7 +16,7 @@ $sa = 0;
 $mu = 0;
 $sp = 0;
 $i = 0;
-while($arrItems[22] == "xxx"){
+while($arrItems[22] != "xxx"){
     $value = (rand(0,2));
     if($value == 0){
         if($sp < 8) {
